@@ -1,0 +1,43 @@
+#eldertonHeading {
+  background-image: url('../img/eldertonHeader.jpg');
+}
+
+#identHeading {
+  background-image: url('../img/identHeader.jpg');
+}
+
+#agencyHeading {
+  background-image: url('../img/agencyHeader2.jpg');
+}
+
+#satcHeading {
+  background-image: url('../img/satcHeader.jpg');
+}
+
+#doggettHeading {
+  background-image: url('../img/doggettHeader.jpg');
+}
+
+#aufcHeading {
+  background-image: url('../img/aufcHeader.jpg');
+}
+
+.navbar-default {
+  background-color: transparent;
+}
+
+.header-elderton{
+
+}
+
+.header-elderton-inner {
+
+}
+
+.project-category {
+  padding: 20px 0 60px 0;
+}
+
+.project-name {
+  color: #4B80B5;
+}

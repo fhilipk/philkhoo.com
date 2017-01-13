@@ -1,0 +1,129 @@
+/*Colours*/
+/*  main blue: #4B80B5*/
+/* light blue: #93b2d2*/
+/* dark blue: #3c6690*/
+/* vibrant blue: #3784bf */
+
+/*@font-face{
+	font-family: 'exo2';
+	src: url('../fonts/web_fonts/exo2.eot');
+	src: url('../fonts/web_fonts/exo2.eot?iefix') format('eot'),
+	     url('../fonts/web_fonts/exo2.woff') format('woff'),
+	     url('../fonts/web_fonts/exo2.ttf') format('truetype'),
+	     url('../fonts/web_fonts/exo2.svg#exo2') format('svg');
+}*/
+
+body {
+	font-family: 'exo 2', sans-serif;
+ }
+
+nav {
+	margin-bottom: 15px;
+}
+
+hr {
+  border-color: #93b2d2;
+}
+
+a {
+  color: #3784bf;
+}
+
+a:focus {
+  color: #3784bf;
+}
+
+p	{
+	font-size: 18px;
+}
+
+.btn {
+	border: 1px solid rgba(75, 128, 181, 0.3);
+}
+
+.btn:hover {
+	border: 1px solid rgba(75, 128, 181, 0.1);
+	background-color: #93b2d2;
+}
+
+.bg-primary {
+  background-color: white;
+}
+
+.section-heading {
+	color: black;
+}
+
+#skills {
+	background-color: #3784bf;
+}
+
+.text-faded {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-default {
+	font-family: 'exo 2', sans-serif;
+}
+
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
+  color: #93b2d2;
+	position: relative;
+}
+
+.navbar-default.affix .navbar-header .navbar-brand {
+  color: #3784bf;
+}
+
+.navbar-default.affix .navbar-header .navbar-brand:hover,
+.navbar-default.affix .navbar-header .navbar-brand:focus {
+  color: #93b2d2;
+}
+
+.navbar-default .nav > li.active > a, .navbar-default .nav > li.active > a:focus {
+  color: #50b0f4 !important;
+}
+
+.call-to-action h2 {
+	padding-bottom: 20px;
+}
+
+.text-muted {
+	color: #93b2d2
+}
+
+.portfolio-box .portfolio-box-caption {
+  background: rgba(75,128,181,.9);
+}
+
+.top-padding {
+	padding: 51px 0 0 0;
+}
+
+@media (min-width: 768px) {
+  .navbar-brand {
+    color: rgba(0,0,0,.7);
+  }
+  .navbar-default.affix .navbar-header .navbar-brand {
+    color: #3784bf;
+		letter-spacing: 1px;
+  }
+	.navbar-default {
+		background-color: #3784bf;
+		margin-bottom: 0px;
+		/*position: relative;*/
+	}
+  .navbar-default .nav > li > a, .navbar-default .nav > li > a:focus {
+			color: #222;
+	}
+	.navbar-default .navbar-header .navbar-brand {
+	font-family: 'exo 2', sans-serif;
+	color: white;
+	font-size: 30px;
+	letter-spacing: 8px;
+	}
+	.text-primary {
+	  color: white;
+	}
+}
