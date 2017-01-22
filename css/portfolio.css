@@ -1,3 +1,7 @@
+h2 {
+  color: #3784bf;
+}
+
 #eldertonHeading {
   background-image: url('../img/eldertonHeader.jpg');
 }
@@ -39,5 +43,5 @@
 }
 
 .project-name {
-  color: #4B80B5;
+  color: white;
 }

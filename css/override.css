@@ -66,6 +66,10 @@ p	{
 	font-family: 'exo 2', sans-serif;
 }
 
+.navbar-default .navbar-header .navbar-brand {
+  color: #3784bf;
+}
+
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
   color: #93b2d2;
@@ -87,6 +91,10 @@ p	{
 
 .call-to-action h2 {
 	padding-bottom: 20px;
+}
+
+.text-primary {
+	color: white;
 }
 
 .text-muted {
